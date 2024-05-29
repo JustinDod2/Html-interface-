@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Ensures text is visible against the background */
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #ffffff; /* Add background color to make text inside visible */
+    border: 2px solid #4CAF50; /* Adjusted border thickness */
+    border-radius: 20px; /* Reduced border-radius for better visibility */
+    color: #333333; /* Text color inside container */
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Text color for heading */
+}
+
+form input, form select {
+    display: block; /* Changed from flex to block for better layout */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+    width: 100%; /* Corrected width to fit container */
+    padding: 10px; /* Adjusted padding for better spacing */
+    border: 1px solid #ccc; /* Added border for visibility */
+    border-radius: 5px; /* Added border-radius for better aesthetics */
+    box-sizing: border-box; /* Ensures padding is included in width */
+    color: #333333; /* Text color for form elements */
+    background-color: #ffffff; /* Background color for form elements */
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #ffffff; /* Corrected text color */
+    border: none; /* Removed border for button */
+    cursor: pointer;
+    border-radius: 5px; /* Added border-radius for better aesthetics */
+}
+
+button:hover {
+    background-color: #45a049;
+    width: 100%; /* Corrected width on hover */
+}
+
+/* Table CSS remains unchanged */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
